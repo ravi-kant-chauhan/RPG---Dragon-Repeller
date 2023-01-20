@@ -20,8 +20,11 @@ const monsterHealthText = document.querySelector("#monsterHealthText");
 
 button1.onclick = goStore;
 button2.onclick = goCave;
-button2.onclick = fightDragon;
+button3.onclick = fightDragon;
 
 function goStore() {
     console.log("Going to store.")
+}
+function goCave() {
+    console.log("Going to cave.")
 }
